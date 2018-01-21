@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/posts/posts"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b3d3db",
+    "navigationBarTitleText": "Hello, World",
+    "navigationBarTextStyle": "black"
+  }
+}
