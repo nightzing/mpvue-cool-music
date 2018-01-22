@@ -1,11 +1,14 @@
 let postsData = require('../../../data/posts-data.js');
-
 Page({
     data: {
     },
-    onLoad: (option) => {
+    onLoad: function(option) {
         let postId = option.id;
         let postData = postsData.post_content[postId];
-        this.data.post_key = postData;
-    },
+        console.log(postId);
+        console.log(postData);
+        this.setData({
+            post_key : postData
+        })
+    }
 })
