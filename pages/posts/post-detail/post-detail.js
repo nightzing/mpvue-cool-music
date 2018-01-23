@@ -1,7 +1,6 @@
 let postsData = require('../../../data/posts-data.js');
 Page({
     data: {
-
     },
 
     onLoad: function(option) {
@@ -16,10 +15,17 @@ Page({
             post_key : postData
         });
 
-        // 获取是否收藏缓存，首次因为还未设置所以为 false
+        // 获取是否收藏缓存，首次因为还未设置所以为 false, (因为缓存为键值对格式，所以初始化时候要用{}把它包起来，直接初始化成数组)
         let postsCollected = wx.getStorageSync('posts_collected');
+
+        // 打开一个新的页面，因为前一个页面有了缓存集，所以会进行这一步
         if (postsCollected){
+            // 如果是一个新的页面，那么postcollected 为undefind 
             let postcollected = postsCollected[postId]
+            // 如果是一个新的页面，那么给collected传递一个undefind会报错
+            if ( !postcollected) {
+                postcollected = false
+            }
             this.setData({
                 collected: postcollected
             })
@@ -28,6 +34,7 @@ Page({
         else {
             let postcollected = {};
             postcollected = false;
+            // 把初始化的值变为数组 ！
             wx.setStorageSync('posts_collected', {postcollected});
         }
     },
