@@ -61,5 +61,9 @@ Page({
         this.setData({
             collected: postcollected
         })
+
+        wx.showToast({
+            title: postcollected?"收藏成功":"取消成功"
+        })
     }
 })
