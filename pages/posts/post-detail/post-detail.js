@@ -62,6 +62,7 @@ Page({
             collected: postcollected
         })
 
+        // 点击收藏按钮时提示框 
         wx.showToast({
             title: postcollected?"收藏成功":"取消成功"
         })
