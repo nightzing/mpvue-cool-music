@@ -66,5 +66,26 @@ Page({
         wx.showToast({
             title: postcollected?"收藏成功":"取消成功"
         })
+    },
+
+    onShareTap: function(event) {
+        let itemList = [
+            "分享到微信好友",
+            "分享到朋友圈",
+            "分享到QQ",
+            "分享到微博"
+        ]
+        wx.showActionSheet({
+            itemList: itemList,
+            itemColor: "#405f80",
+            success:function(res) {
+                // res.cancel 用户是不是带你寄了取消按钮
+                // res.tapIndex 数组元素的序号，从0开始
+                wx.showModal({
+                    title: "用户" + itemList[res.tapIndex],
+                    conent: "现在还不能分享"
+                })
+            }
+        })
     }
 })
