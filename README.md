@@ -25,42 +25,10 @@
 
 ## 项目截图
 
-[点击查看项目截图](http://cloud.video.taobao.com/play/u/1798224346/p/1/e/6/t/1/50014580198.mp4)
+![](https://imgchr.com/i/C3Oz2q)
+![](https://imgchr.com/i/C3OxGn)
+![](https://imgchr.com/i/C3XSx0)
 
-
-
-
-## 有问题
-你可以用以下联系方式找到我(`不接受问问题,有问题请直接提交`[issue](https://github.com/vincenth520/pinche_xcx/issues))
-
-(点击链接加入群【微信小程序开发交流】：https://jq.qq.com/?_wv=1027&k=4Em0dwJ)
-
-
-[捐赠支持付费计划](https://github.com/vincenth520/pinche_xcx/blob/master/donate.md)
-
-
-- email[[1091986039@qq.com](mailto:1091986039@qq.com)]
-- qq[1091986039]
-- wechat[1091986039]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> A Mpvue project
 
 ## Build Setup
 
