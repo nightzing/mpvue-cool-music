@@ -1,5 +1,5 @@
 
-# music / 微信小程序
+# 🎵♥music / 微信小程序
 
 ![GitHub stars](https://img.shields.io/badge/Webpack-4.1.0-blue.svg)
 ![GitHub stars](https://img.shields.io/badge/mpvue-1.0.9-yellow.svg)
@@ -18,16 +18,16 @@
 此源码仅可用作学习和交流,请勿用作商业用途及销售获利
 
 
-- 前端代码地址：[https://github.com/vincenth520/pinche_xcx](https://github.com/vincenth520/pinche_xcx)
-- 后端代码地址：[https://github.com/vincenth520/pinche_xcx_data](https://github.com/vincenth520/pinche_xcx_data)
-
+- 前端代码地址：[https://github.com/x751685875/Music-WeXin](https://github.com/x751685875/Music-WeXin)
+- 后端代码地址：采用网易云API。地址为 [https://binaryify.github.io/NeteaseCloudMusicApi/#/](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
 
 
 ## 项目截图
 
-![](https://imgchr.com/i/C3Oz2q)
-![](https://imgchr.com/i/C3OxGn)
-![](https://imgchr.com/i/C3XSx0)
+
+![2OHyW1.png](https://t1.picb.cc/uploads/2018/04/27/2OHyW1.png)
+![2OHVka.png](https://t1.picb.cc/uploads/2018/04/27/2OHVka.png)
+![2OH2Rd.png](https://t1.picb.cc/uploads/2018/04/27/2OH2Rd.png)
 
 
 ## Build Setup
