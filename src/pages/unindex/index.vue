@@ -65,19 +65,6 @@ export default {
   created() {
     // 调用应用实例的方法获取全局数据
     this.getUserInfo();
-
-    fly.get("http://localhost:3000/search/suggest?keywords=%20%E6%B5%B7%E9%98%94%E5%A4%A9%E7%A9%BA", {
-       
-       })
-      .then(d => {
-        //输出请求数据
-        console.log(d.data);
-        //输出响应头
-        console.log(d.header);
-      })
-      .catch(err => {
-        console.log(err.status, err.message);
-      });
   }
 };
 </script>

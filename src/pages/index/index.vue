@@ -1,5 +1,6 @@
 <template>
     <div class="content">
+        <div class="search"></div>
         <div class="banner">
             <swiper class="bannerSwiper" :indicator-dots="true" :autoplay="true" :circular="true" :interval="5000" :duration="500" indicator-active-color="#7054dd">
                 <block v-for="item in banner" :key="item.id">
@@ -43,14 +44,14 @@
                 <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI0NjQ5OTM3MTA2IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE1MjAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzYiIGhlaWdodD0iMzYiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTI5NC40IDkwOC44IDY4NC44IDUxMiAyOTQuNCAxMTUuMmMtMjUuNi0yNS42LTI1LjYtNzAuNCAwLTk2IDI1LjYtMjUuNiA3MC40LTI1LjYgOTYgMEw4MzIgNDYwLjhjMTIuOCAxMi44IDE5LjIgMzIgMTkuMiA1MS4yUzg0NC44IDU0NCA4MzIgNTYzLjJsLTQ0MS42IDQ0MS42Yy0yNS42IDI1LjYtNzAuNCAyNS42LTk2IDBDMjYyLjQgOTc5LjIgMjYyLjQgOTM0LjQgMjk0LjQgOTA4Ljh6IiBwLWlkPSIxNTIxIiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PC9zdmc+); background-size:24rpx 24rpx; width:24rpx;height:24rpx;"></i>
             </div>
             <div class="Single">
-                <div v-for="(item,index) in Single" :key="item.id" v-if="index<=4" class="SingleWidth">
+                <div v-for="(item,index) in Single" :key="item.id" v-if="index<=4" class="SingleWidth" @click="musicUrl(item.id)">
                     <div>
                         <img :src="item.song.album.picUrl" alt="">
                         <div>
                             <p class="name">{{item.name}}</p>
                             <div class="people">
                                 <p v-for="(itempeo,indexa) in item.song.album.artists" :key="itempeo.id" v-if="indexa<=1">
-                                    {{itempeo.name}}	&nbsp;
+                                    {{itempeo.name}} &nbsp;
                                 </p>
                             </div>
                         </div>
@@ -73,9 +74,11 @@
                 </div>
             </div>
         </div>
-        <div class="Playing">
-            <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI0NzIwMTEyODI3IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjM2NjYwIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjgxIiBoZWlnaHQ9IjgxIj48ZGVmcz48c3R5bGUgdHlwZT0idGV4dC9jc3MiPjwvc3R5bGU+PC9kZWZzPjxwYXRoIGQ9Ik01MTIgMTAyNGMtMTQuMzM2IDAtMjUuNi0xMS4yNjQtMjUuNi0yNS42di05NzIuOGMwLTE0LjMzNiAxMS4yNjQtMjUuNiAyNS42LTI1LjZzMjUuNiAxMS4yNjQgMjUuNiAyNS42djk3Mi44YzAgMTQuMzM2LTExLjI2NCAyNS42LTI1LjYgMjUuNnpNMjY4LjggNzgwLjhjLTE0LjMzNiAwLTI1LjYtMTEuMjY0LTI1LjYtMjUuNnYtNDg2LjRjMC0xNC4zMzYgMTEuMjY0LTI1LjYgMjUuNi0yNS42czI1LjYgMTEuMjY0IDI1LjYgMjUuNnY0ODYuNGMwIDE0LjMzNi0xMS4yNjQgMjUuNi0yNS42IDI1LjZ6TTI1LjYgNjU5Ljk2OGMtMTQuMzM2IDAtMjUuNi0xMS4yNjQtMjUuNi0yNS42di0yNDEuMTUyYzAtMTQuMzM2IDExLjI2NC0yNS42IDI1LjYtMjUuNnMyNS42IDExLjI2NCAyNS42IDI1LjZ2MjQxLjE1MmMwIDE0LjMzNi0xMS4yNjQgMjUuNi0yNS42IDI1LjZ6TTc1NS4yIDc4MC44Yy0xNC4zMzYgMC0yNS42LTExLjI2NC0yNS42LTI1LjZ2LTQ4Ni40YzAtMTQuMzM2IDExLjI2NC0yNS42IDI1LjYtMjUuNnMyNS42IDExLjI2NCAyNS42IDI1LjZ2NDg2LjRjMCAxNC4zMzYtMTEuMjY0IDI1LjYtMjUuNiAyNS42ek05OTguNCA2NTkuOTY4Yy0xNC4zMzYgMC0yNS42LTExLjI2NC0yNS42LTI1LjZ2LTI0MS4xNTJjMC0xNC4zMzYgMTEuMjY0LTI1LjYgMjUuNi0yNS42czI1LjYgMTEuMjY0IDI1LjYgMjUuNnYyNDEuMTUyYzAgMTQuMzM2LTExLjI2NCAyNS42LTI1LjYgMjUuNnoiIHAtaWQ9IjM2NjYxIiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PC9zdmc+) no-repeat center; background-size:60rpx 60rpx; width:120rpx;height:120rpx;"></i>
-            
+        <div class="Playing" @click="listenerButtonPause">
+            <div class='wrap'>
+
+            </div>
+
         </div>
     </div>
 </template>
@@ -91,12 +94,12 @@ export default {
             autoplay: true,
             songitem: {},
             Single: {},
-            Radio:{}
+            Radio: {}
         };
     },
     created() {
         fly
-            .get("http://localhost:3000/banner", {})
+            .get("http://192.168.0.101:3000/banner", {})
             .then(d => {
                 this.banner = d.data.banners;
             })
@@ -104,7 +107,7 @@ export default {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://localhost:3000/personalized", {})
+            .get("http://192.168.0.101:3000/personalized", {})
             .then(d => {
                 this.songitem = d.data.result;
             })
@@ -112,23 +115,38 @@ export default {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://localhost:3000/personalized/newsong", {})
+            .get("http://192.168.0.101:3000/personalized/newsong", {})
             .then(d => {
                 this.Single = d.data.result;
-                console.log(this.Single);
             })
             .catch(err => {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://localhost:3000/personalized/djprogram", {})
+            .get("http://192.168.0.101:3000/personalized/djprogram", {})
             .then(d => {
                 this.Radio = d.data.result;
-                console.log(this.Radio);
             })
             .catch(err => {
                 console.log(err.status, err.message);
             });
+    },
+    methods: {
+        musicUrl(e) {
+            const url = "../music/main?id=" + e;
+            wx.navigateTo({ url });
+        },
+        //监听button暂停按钮
+        listenerButtonPause: function() {
+            let e = wx.getStorageSync("musicId");
+
+            if (!e) {
+                
+            }else{
+                const url = "../music/main?id=" + e;
+                wx.navigateTo({ url });
+            }
+        }
     }
 };
 </script>
@@ -209,10 +227,8 @@ export default {
 .songWidth > p {
     padding-top: 10rpx;
     font-size: 24rpx;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
     overflow: hidden;
+    height: 68rpx;
 }
 .songImg {
     width: 210rpx;
@@ -258,38 +274,39 @@ export default {
     display: flex;
     margin-bottom: 30rpx;
 }
-.SingleWidth>div img {
+.SingleWidth > div img {
     width: 120rpx;
     height: 120rpx;
     border-radius: 10rpx;
 }
-.SingleWidth > div >div{
+.SingleWidth > div > div {
     margin-left: 20rpx;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.name{
-    font-size: 32rpx
+.name {
+    font-size: 32rpx;
 }
-.people{
+.people {
     margin-top: 10rpx;
     font-size: 24rpx;
     display: flex;
-    color:#999;
+    color: #999;
     max-width: 420rpx;
     overflow: hidden;
     white-space: nowrap;
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
 }
-.Playing{
+.Playing {
     position: fixed;
     bottom: 20rpx;
-    right:40rpx;
+    right: 40rpx;
     width: 120rpx;
     height: 120rpx;
     background: #fff;
     border: 2px solid #7054dd;
-    border-radius: 50%
+    border-radius: 50%;
+    overflow: hidden;
 }
 </style>
