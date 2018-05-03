@@ -99,7 +99,7 @@ export default {
     },
     created() {
         fly
-            .get("http://192.168.0.101:3000/banner", {})
+            .get("http://localhost:3000/banner", {})
             .then(d => {
                 this.banner = d.data.banners;
             })
@@ -107,7 +107,7 @@ export default {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://192.168.0.101:3000/personalized", {})
+            .get("http://localhost:3000/personalized", {})
             .then(d => {
                 this.songitem = d.data.result;
             })
@@ -115,7 +115,7 @@ export default {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://192.168.0.101:3000/personalized/newsong", {})
+            .get("http://localhost:3000/personalized/newsong", {})
             .then(d => {
                 this.Single = d.data.result;
             })
@@ -123,7 +123,7 @@ export default {
                 console.log(err.status, err.message);
             });
         fly
-            .get("http://192.168.0.101:3000/personalized/djprogram", {})
+            .get("http://localhost:3000/personalized/djprogram", {})
             .then(d => {
                 this.Radio = d.data.result;
             })
