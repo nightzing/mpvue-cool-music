@@ -1,21 +1,19 @@
 <template>
     <div class="content">
         <div class="search">
-            <input @input="bindKeyInput" type="text" placeholder="搜索歌曲" class="inputSearch" :value="firstName">
+            <input @input="bindKeyInput" type="text" placeholder="搜索歌曲" class="inputSearch">
             <i @click="searchI" style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MzU0MTYzNzM1IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE5MjAiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNDQxLjE5MiAxODEuODMxYzEzMi40OC0xMy43MDQgMjU1LjgyNCA2OC41MjQgMjkyLjM3MSAxOTEuODY4IDQuNTY4IDE4LjI3NC00LjU2OCAyNy40MS0xMy43MDQgMzEuOTc4LTkuMTM3IDAtMjIuODQxLTQuNTY4LTI3LjQxLTE4LjI3NC0zMS45NzgtMTA5LjYzOS0xMzcuMDQ5LTE3OC4xNjMtMjUxLjI1Ni0xNTkuODktMjIuODQxIDQuNTY3LTI3LjQxLTQxLjExNCAwLTQ1LjY4M3pNNzY1LjUzOSA2OTMuNDc5Yy00LjU2OC00LjU2NyAwLTE4LjI3NCA0LjU2Ny0yMi44NDEgNTAuMjUxLTYzLjk1NSA3Ny42NjEtMTQxLjYxNyA3Ny42NjEtMjI4LjQxMyAwLTIwMS4wMDQtMTY0LjQ1OS0zNjUuNDYzLTM2NS40NjMtMzY1LjQ2My0yMDEuMDA0IDAtMzY1LjQ2MyAxNjQuNDU5LTM2NS40NjMgMzY1LjQ2MyAwIDIwMS4wMDQgMTY0LjQ1OSAzNjUuNDYzIDM2NS40NjMgMzY1LjQ2MyA4Ni43OTcgMCAxNjQuNDU5LTI3LjQxIDIyMy44NDYtNzMuMDkyIDkuMTM3LTkuMTM3IDE4LjI3NC0xMy43MDQgMjcuNDEtNC41NjdsMTI3LjkxMyAxMzIuNDhjOS4xMzcgOS4xMzcgMjcuNDEgNC41NjcgMzYuNTQ3LTQuNTY3djBjOS4xMzctOS4xMzcgOS4xMzctMjIuODQxIDAtMzEuOTc4bC0xMzIuNDgtMTMyLjQ4ek00ODIuMzA3IDc2Ni41NzFjLTE3OC4xNjMgMC0zMTkuNzc5LTE0Ni4xODUtMzE5Ljc3OS0zMjQuMzQ4czE0MS42MTctMzE5Ljc3OSAzMTkuNzc5LTMxOS43NzljMTc4LjE2MyAwIDMyNC4zNDggMTQxLjYxNiAzMjQuMzQ4IDMxOS43NzkgMCAxNzguMTYzLTE0Ni4xODUgMzI0LjM0OC0zMjQuMzQ4IDMyNC4zNDh6IiBwLWlkPSIxOTIxIiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PC9zdmc+); background-size:56rpx 56rpx; width:56rpx;height:56rpx;"></i>
         </div>
         <div style="margin-top:20rpx;">
-            <div v-for="item in searchData" :key="item.id" class="searchTitle">
-                <div @click="musicUrl(item.id)">
-                    <div>{{item.name}}</div>
-                    <div class="searchName">
-                        <p v-for="(itempeo,indexa) in item.artists" :key="indexa">
-                            {{itempeo.name}} &nbsp;
-                        </p>
-                        <p>- {{item.album.name}}</p>
+            <div class="songitem">
+                <div v-for="item in songitem" :key="item.id" class="songWidth" @click="songItem(item.id)">
+                    <div class="songImg">
+                        <img :src="item.coverImgUrl" alt="">
+                        <p>
+                            <i></i>{{item.playCount}}</p>
                     </div>
+                    <p>{{item.name}}</p>
                 </div>
-                <i @click="JoinTheList(item.id)" style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1NDI2MTQwNDE3IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjM4MDMiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTE0LjA0OCA2Mi40NjRxOTMuMTg0IDAgMTc1LjYxNiAzNS4zMjh0MTQzLjg3MiA5Ni43NjggOTYuNzY4IDE0My44NzIgMzUuMzI4IDE3NS42MTZxMCA5NC4yMDgtMzUuMzI4IDE3Ni4xMjh0LTk2Ljc2OCAxNDMuMzYtMTQzLjg3MiA5Ni43NjgtMTc1LjYxNiAzNS4zMjhxLTk0LjIwOCAwLTE3Ni42NC0zNS4zMjh0LTE0My44NzItOTYuNzY4LTk2Ljc2OC0xNDMuMzYtMzUuMzI4LTE3Ni4xMjhxMC05My4xODQgMzUuMzI4LTE3NS42MTZ0OTYuNzY4LTE0My44NzIgMTQzLjg3Mi05Ni43NjggMTc2LjY0LTM1LjMyOHpNNzcyLjA5NiA1NzYuNTEycTI2LjYyNCAwIDQ1LjA1Ni0xOC45NDR0MTguNDMyLTQ1LjU2OC0xOC40MzItNDUuMDU2LTQ1LjA1Ni0xOC40MzJsLTE5Mi41MTIgMCAwLTE5Mi41MTJxMC0yNi42MjQtMTguOTQ0LTQ1LjU2OHQtNDUuNTY4LTE4Ljk0NC00NS4wNTYgMTguOTQ0LTE4LjQzMiA0NS41NjhsMCAxOTIuNTEyLTE5Mi41MTIgMHEtMjYuNjI0IDAtNDUuMDU2IDE4LjQzMnQtMTguNDMyIDQ1LjA1NiAxOC40MzIgNDUuNTY4IDQ1LjA1NiAxOC45NDRsMTkyLjUxMiAwIDAgMTkxLjQ4OHEwIDI2LjYyNCAxOC40MzIgNDUuNTY4dDQ1LjA1NiAxOC45NDQgNDUuNTY4LTE4Ljk0NCAxOC45NDQtNDUuNTY4bDAtMTkxLjQ4OCAxOTIuNTEyIDB6IiBwLWlkPSIzODA0IiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PC9zdmc+); background-size:40rpx 40rpx; width:40rpx;height:40rpx;"></i>
             </div>
         </div>
         <div class="Playing" @click="listenerButtonPause">
@@ -33,23 +31,18 @@ var fly = new Fly(); //创建fly实例
 export default {
     data() {
         return {
-            internal: false,
-            searchData: {},
-            firstName: ""
+            songitem: {}
         };
     },
-    onLoad: function(options) {
+    onLoad: function() {
         wx.setNavigationBarTitle({
-            title: "搜索界面" //页面标题为路由参数
+            title: "精品歌单推荐" //页面标题为路由参数
         });
-        let firstSearch = options.search;
-        this.firstName = firstSearch;
-        let firstSearchUrl =
-            "http://localhost:3000/search?keywords=" + firstSearch;
+
         fly
-            .get(firstSearchUrl, {})
+            .get("http://localhost:3000/top/playlist/highquality?limit=30", {})
             .then(d => {
-                this.searchData = d.data.result.songs;
+                this.songitem = d.data.playlists;
             })
             .catch(err => {
                 console.log(err.status, err.message);
@@ -62,22 +55,14 @@ export default {
             this.bindKeyInput = e.target.value;
         },
         searchI: function() {
-            this.searchData = {};
             let searchValue = this.bindKeyInput;
-            this.firstName = searchValue;
-            let searchValueUrl =
-                "http://localhost:3000/search?keywords=" + searchValue;
-            fly
-                .get(searchValueUrl, {})
-                .then(d => {
-                    this.searchData = d.data.result.songs;
-                })
-                .catch(err => {
-                    console.log(err.status, err.message);
-                });
+
+            const url = "../search/main?search=" + searchValue;
+            wx.navigateTo({ url });
         },
-        musicUrl(e) {
-            const url = "../music/main?id=" + e;
+
+        songItem: function(e) {
+            const url = "../songItem/main?id=" + e;
             wx.navigateTo({ url });
         },
         //监听button暂停按钮
@@ -88,28 +73,6 @@ export default {
             } else {
                 const url = "../music/main?id=" + e;
                 wx.navigateTo({ url });
-            }
-        },
-        JoinTheList: function(e) {
-            let chongfu = [];
-            let playing = wx.getStorageSync("playing");
-            for (let index = 0; index < playing.length; index++) {
-                const element = playing[index].id;
-                chongfu.push(element)
-            }
-            for (let index = 0; index < chongfu.length; index++) {
-                const elementq = chongfu[index];
-                if (elementq == e) {
-                    var panduanchongfu = true
-                }
-            }
-            if (!panduanchongfu) {
-                let status =  {
-                    id: e,
-                    status: false
-                }
-                playing.unshift(status);
-                wx.setStorageSync("playing", playing);
             }
         }
     }
@@ -134,20 +97,6 @@ export default {
     font-size: 24rpx;
     padding-left: 20rpx;
 }
-.searchTitle {
-    display: flex;
-    justify-content: space-between;
-    font-size: 28rpx;
-    margin-top: 20rpx;
-    border-bottom: 1px solid #efefef;
-}
-.searchName {
-    font-size: 20rpx;
-    color: #666;
-    display: flex;
-    margin-top: 10rpx;
-    margin-bottom: 20rpx;
-}
 .Playing {
     position: fixed;
     bottom: 20rpx;
@@ -159,5 +108,45 @@ export default {
     border: 2px solid #7054dd;
     border-radius: 50%;
     overflow: hidden;
+}
+.songitem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30rpx;
+}
+.songWidth {
+    width: 210rpx;
+    margin-bottom: 30rpx;
+}
+.songWidth > p {
+    padding-top: 10rpx;
+    font-size: 24rpx;
+    overflow: hidden;
+    height: 68rpx;
+}
+.songImg {
+    width: 210rpx;
+    height: 210rpx;
+    position: relative;
+}
+.songImg > p {
+    width: 200rpx;
+    font-size: 20rpx;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    text-align: right;
+    padding-right: 10rpx;
+
+    border-radius: 0 0 10rpx 10rpx;
+}
+.songImg img {
+    width: 210rpx;
+    height: 210rpx;
+    border-radius: 10rpx;
 }
 </style>

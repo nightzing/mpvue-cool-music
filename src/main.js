@@ -14,7 +14,11 @@ export default {
     pages: [
       "pages/logs/main",
       "pages/search/main",
+      "pages/ranking/main",
+      "pages/songItem/main",
+      "pages/MoreSongList/main",
       "pages/unindex/main",
+      "pages/playlist/main",
       "^pages/index/main",
       "pages/music/main"
     ],
@@ -36,10 +40,10 @@ export default {
           text: "发现音乐"
         },
         {
-          iconPath: "./static/我的1.png",
-          selectedIconPath: "./static/我的.png",
-          pagePath: "pages/logs/main",
-          text: "我的音乐"
+          iconPath: "./static/列表 (1).png",
+          selectedIconPath: "./static/列表.png",
+          pagePath: "pages/playlist/main",
+          text: "播放列表"
         }
       ]
     }

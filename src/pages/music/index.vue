@@ -26,10 +26,10 @@
 
         <div class="musicIcon">
             <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MDk3NzQ1OTM0IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjY1MTQiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODEiIGhlaWdodD0iODEiPjxkZWZzPjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+PC9zdHlsZT48L2RlZnM+PHBhdGggZD0iTTk0Ni40ODM1MzIgNDY3LjIxODA3NCA3OTkuNTMzNjkyIDYxNi40NzQ0NDZjLTcuOTk4MTYxIDguMTIxOTgxLTE4LjkxODg4NSAxMi42OTcxODMtMzAuMzE4NTE2IDEyLjY5NzE4My0xMS4zOTk2MzEgMC0yMi4zMjAzNTUtNC41NzUyMDItMzAuMzE4NTE2LTEyLjY5NzE4M0w1OTEuOTQ1Nzk3IDQ2Ny4yMTgwNzRjLTE2LjQ4MzQxNi0xNi43NDQzNTktMTYuMjcwNTY5LTQzLjY3Njc1NSAwLjQ3MTc0NC02MC4xNjUyODggMTYuNzM5MjQzLTE2LjQ4MzQxNiA0My42NjU0OTktMTYuMjc1Njg1IDYwLjE2NTI4OCAwLjQ3MTc0NGw4Mi4xMzQ2NDkgODMuNDI2MDYxYy0xMC42NTM2NDEtMTU0LjQxNTg4Mi0xMzcuMzkyMTYtMjc2Ljc1NzI1NS0yOTEuNzU4OTIzLTI3Ni43NTcyNTUtMTYxLjMzMTM4NSAwLTI5Mi41ODE2NjIgMTMzLjU5MjYyNC0yOTIuNTgxNjYyIDI5Ny44MDY2NjNTMjgxLjYyODE5MiA4MDkuODA1NjQgNDQyLjk1OTU3NyA4MDkuODA1NjRjNTkuMzgwNDEyIDAgMTE2LjUyMjg1NC0xNy45Nzk0OSAxNjUuMjQxNDM4LTUyLjAwMTM1MSAxOS4yNzE5MjYtMTMuNDQ1MjIgNDUuNzk0OTk5LTguNzMzOTE4IDU5LjI0MDIxOSAxMC41Mjc3NzQgMTMuNDUxMzYgMTkuMjY2ODA5IDguNzM0OTQyIDQ1Ljc4OTg4Mi0xMC41MjY3NTEgNTkuMjQwMjE5LTYzLjA3ODY0MSA0NC4wMzkwMDYtMTM3LjA2MTYzMiA2Ny4zMjEyNjgtMjEzLjk1NDkwNyA2Ny4zMjEyNjgtMjA4LjI0NjkwNSAwLTM3Ny42Njk1NzItMTcxLjc2Mzk5Mi0zNzcuNjY5NTcyLTM4Mi44OTM1NXMxNjkuNDIxNjQ0LTM4Mi44OTM1NSAzNzcuNjY5NTcyLTM4Mi44OTM1NWMxOTYuMTE1NjEgMCAzNTcuNzQxNzA3IDE1Mi4zNjAwNiAzNzUuOTA0MzY5IDM0Ni40NTQ2NGw2Ni45ODE1MzEtNjguMDM1NTM2YzE2LjQ5OTc4OS0xNi43NTI1NDYgNDMuNDM3MzAyLTE2Ljk1MDA0NCA2MC4xNjUyODgtMC40NzE3NDRDOTYyLjc1NTEyNCA0MjMuNTQxMzE5IDk2Mi45Njc5NzIgNDUwLjQ3MzcxNSA5NDYuNDgzNTMyIDQ2Ny4yMTgwNzR6IiBwLWlkPSI2NTE1IiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PC9zdmc+); background-size:56rpx 56rpx; width:56rpx;height:56rpx;"></i>
-            <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjAwNTU0IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE0MDUiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTEyIDYyLjM4OTk1NmMtMjQ4LjMxMjQxMiAwLTQ0OS42MTAwNDQgMjAxLjI5NzYzMi00NDkuNjEwMDQ0IDQ0OS42MTAwNDRzMjAxLjI5NzYzMiA0NDkuNjEwMDQ0IDQ0OS42MTAwNDQgNDQ5LjYxMDA0NCA0NDkuNjEwMDQ0LTIwMS4yOTc2MzIgNDQ5LjYxMDA0NC00NDkuNjEwMDQ0Uzc2MC4zMTI0MTIgNjIuMzg5OTU2IDUxMiA2Mi4zODk5NTZ6TTc4Ni41MDcwMDQgNzg2LjUwNzAwNGMtMzUuNjcyNDU0IDM1LjY3MjQ1NC03Ny4xOTYxNzMgNjMuNjcyMTU4LTEyMy40MTY4NjcgODMuMjIyNDIzLTQ3LjgyMTE0NSAyMC4yMjY2Ny05OC42NTU5MjcgMzAuNDgyMjQ1LTE1MS4wOTExNiAzMC40ODIyNDUtNTIuNDM1MjMzIDAtMTAzLjI3MDAxNS0xMC4yNTU1NzUtMTUxLjA5MTE2LTMwLjQ4MjI0NS00Ni4yMjA2OTQtMTkuNTQ5MjQyLTg3Ljc0NDQxMy00Ny41NDk5NjktMTIzLjQxNjg2Ny04My4yMjI0MjMtMzUuNjcyNDU0LTM1LjY3MjQ1NC02My42NzIxNTgtNzcuMTk2MTczLTgzLjIyMjQyMy0xMjMuNDE2ODY3LTIwLjIyNjY3LTQ3LjgyMTE0NS0zMC40ODIyNDUtOTguNjU1OTI3LTMwLjQ4MjI0NS0xNTEuMDkwMTM3IDAtNTIuNDM1MjMzIDEwLjI1NTU3NS0xMDMuMjcwMDE1IDMwLjQ4MjI0NS0xNTEuMDkxMTYgMTkuNTQ5MjQyLTQ2LjIyMDY5NCA0Ny41NDk5NjktODcuNzQ0NDEzIDgzLjIyMjQyMy0xMjMuNDE2ODY3IDM1LjY3MjQ1NC0zNS42NzI0NTQgNzcuMTk2MTczLTYzLjY3MjE1OCAxMjMuNDE2ODY3LTgzLjIyMjQyMyA0Ny44MjExNDUtMjAuMjI2NjcgOTguNjU0OTA0LTMwLjQ4MjI0NSAxNTEuMDkxMTYtMzAuNDgyMjQ1IDUyLjQzNTIzMyAwIDEwMy4yNjg5OTIgMTAuMjU1NTc1IDE1MS4wOTExNiAzMC40ODIyNDUgNDYuMjIwNjk0IDE5LjU0OTI0MiA4Ny43NDQ0MTMgNDcuNTQ5OTY5IDEyMy40MTY4NjcgODMuMjIyNDIzIDM1LjY3MjQ1NCAzNS42NzI0NTQgNjMuNjcyMTU4IDc3LjE5NjE3MyA4My4yMjI0MjMgMTIzLjQxNjg2NyAyMC4yMjY2NyA0Ny44MjExNDUgMzAuNDgyMjQ1IDk4LjY1NTkyNyAzMC40ODIyNDUgMTUxLjA5MTE2IDAgNTIuNDM1MjMzLTEwLjI1NTU3NSAxMDMuMjY4OTkyLTMwLjQ4MjI0NSAxNTEuMDkwMTM3Qzg1MC4xNzkxNjMgNzA5LjMxMDgzMSA4MjIuMTc5NDU4IDc1MC44MzQ1NSA3ODYuNTA3MDA0IDc4Ni41MDcwMDR6IiBwLWlkPSIxNDA2IiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PHBhdGggZD0iTTcxNS44MzAzMTUgMzA1LjY2NzcwMSA0NDguMzQ2MjYxIDUwNy45ODA0NTNjLTMuMDk0NDc4IDEuNzg2NjkzLTMuMDk0NDc4IDYuMjUyNDAxIDAgOC4wMzkwOTNsMjY3LjQ4NDA1NCAyMDIuMzEyNzUyYzMuMDk0NDc4IDEuNzg2NjkzIDYuOTYxNTUyLTAuNDQ2MTYyIDYuOTYxNTUyLTQuMDE5NTQ3bDAtNDA0LjYyNTUwNEM3MjIuNzkxODY3IDMwNi4xMTM4NjMgNzE4LjkyNDc5MyAzMDMuODgxMDA5IDcxNS44MzAzMTUgMzA1LjY2NzcwMXoiIHAtaWQ9IjE0MDciIGZpbGw9IiM3MDU0ZGQiPjwvcGF0aD48cGF0aCBkPSJNMzk4LjA3ODM5MSAzMDYuMDQ5Mzk1bC05Mi4yMjk1NjQgMGMtMi41NjMzODIgMC00LjY0MDY5NCAyLjM2NTg4NC00LjY0MDY5NCA1LjI4MzMzbDAgNDAxLjMzNDU1MWMwIDIuOTE3NDQ2IDIuMDc4MzM1IDUuMjgzMzMgNC42NDA2OTQgNS4yODMzM2w5Mi4yMjk1NjQgMGMyLjU2MzM4MiAwIDQuNjQxNzE3LTIuMzY1ODg0IDQuNjQxNzE3LTUuMjgzMzNMNDAyLjcyMDEwOCAzMTEuMzMyNzI0QzQwMi43MTkwODQgMzA4LjQxNTI3OCA0MDAuNjQxNzczIDMwNi4wNDkzOTUgMzk4LjA3ODM5MSAzMDYuMDQ5Mzk1eiIgcC1pZD0iMTQwOCIgZmlsbD0iIzcwNTRkZCI+PC9wYXRoPjwvc3ZnPg==); background-size:76rpx 76rpx; width:76rpx;height:76rpx;"></i>
+            <i @click="PrevSong" style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjAwNTU0IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE0MDUiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTEyIDYyLjM4OTk1NmMtMjQ4LjMxMjQxMiAwLTQ0OS42MTAwNDQgMjAxLjI5NzYzMi00NDkuNjEwMDQ0IDQ0OS42MTAwNDRzMjAxLjI5NzYzMiA0NDkuNjEwMDQ0IDQ0OS42MTAwNDQgNDQ5LjYxMDA0NCA0NDkuNjEwMDQ0LTIwMS4yOTc2MzIgNDQ5LjYxMDA0NC00NDkuNjEwMDQ0Uzc2MC4zMTI0MTIgNjIuMzg5OTU2IDUxMiA2Mi4zODk5NTZ6TTc4Ni41MDcwMDQgNzg2LjUwNzAwNGMtMzUuNjcyNDU0IDM1LjY3MjQ1NC03Ny4xOTYxNzMgNjMuNjcyMTU4LTEyMy40MTY4NjcgODMuMjIyNDIzLTQ3LjgyMTE0NSAyMC4yMjY2Ny05OC42NTU5MjcgMzAuNDgyMjQ1LTE1MS4wOTExNiAzMC40ODIyNDUtNTIuNDM1MjMzIDAtMTAzLjI3MDAxNS0xMC4yNTU1NzUtMTUxLjA5MTE2LTMwLjQ4MjI0NS00Ni4yMjA2OTQtMTkuNTQ5MjQyLTg3Ljc0NDQxMy00Ny41NDk5NjktMTIzLjQxNjg2Ny04My4yMjI0MjMtMzUuNjcyNDU0LTM1LjY3MjQ1NC02My42NzIxNTgtNzcuMTk2MTczLTgzLjIyMjQyMy0xMjMuNDE2ODY3LTIwLjIyNjY3LTQ3LjgyMTE0NS0zMC40ODIyNDUtOTguNjU1OTI3LTMwLjQ4MjI0NS0xNTEuMDkwMTM3IDAtNTIuNDM1MjMzIDEwLjI1NTU3NS0xMDMuMjcwMDE1IDMwLjQ4MjI0NS0xNTEuMDkxMTYgMTkuNTQ5MjQyLTQ2LjIyMDY5NCA0Ny41NDk5NjktODcuNzQ0NDEzIDgzLjIyMjQyMy0xMjMuNDE2ODY3IDM1LjY3MjQ1NC0zNS42NzI0NTQgNzcuMTk2MTczLTYzLjY3MjE1OCAxMjMuNDE2ODY3LTgzLjIyMjQyMyA0Ny44MjExNDUtMjAuMjI2NjcgOTguNjU0OTA0LTMwLjQ4MjI0NSAxNTEuMDkxMTYtMzAuNDgyMjQ1IDUyLjQzNTIzMyAwIDEwMy4yNjg5OTIgMTAuMjU1NTc1IDE1MS4wOTExNiAzMC40ODIyNDUgNDYuMjIwNjk0IDE5LjU0OTI0MiA4Ny43NDQ0MTMgNDcuNTQ5OTY5IDEyMy40MTY4NjcgODMuMjIyNDIzIDM1LjY3MjQ1NCAzNS42NzI0NTQgNjMuNjcyMTU4IDc3LjE5NjE3MyA4My4yMjI0MjMgMTIzLjQxNjg2NyAyMC4yMjY2NyA0Ny44MjExNDUgMzAuNDgyMjQ1IDk4LjY1NTkyNyAzMC40ODIyNDUgMTUxLjA5MTE2IDAgNTIuNDM1MjMzLTEwLjI1NTU3NSAxMDMuMjY4OTkyLTMwLjQ4MjI0NSAxNTEuMDkwMTM3Qzg1MC4xNzkxNjMgNzA5LjMxMDgzMSA4MjIuMTc5NDU4IDc1MC44MzQ1NSA3ODYuNTA3MDA0IDc4Ni41MDcwMDR6IiBwLWlkPSIxNDA2IiBmaWxsPSIjNzA1NGRkIj48L3BhdGg+PHBhdGggZD0iTTcxNS44MzAzMTUgMzA1LjY2NzcwMSA0NDguMzQ2MjYxIDUwNy45ODA0NTNjLTMuMDk0NDc4IDEuNzg2NjkzLTMuMDk0NDc4IDYuMjUyNDAxIDAgOC4wMzkwOTNsMjY3LjQ4NDA1NCAyMDIuMzEyNzUyYzMuMDk0NDc4IDEuNzg2NjkzIDYuOTYxNTUyLTAuNDQ2MTYyIDYuOTYxNTUyLTQuMDE5NTQ3bDAtNDA0LjYyNTUwNEM3MjIuNzkxODY3IDMwNi4xMTM4NjMgNzE4LjkyNDc5MyAzMDMuODgxMDA5IDcxNS44MzAzMTUgMzA1LjY2NzcwMXoiIHAtaWQ9IjE0MDciIGZpbGw9IiM3MDU0ZGQiPjwvcGF0aD48cGF0aCBkPSJNMzk4LjA3ODM5MSAzMDYuMDQ5Mzk1bC05Mi4yMjk1NjQgMGMtMi41NjMzODIgMC00LjY0MDY5NCAyLjM2NTg4NC00LjY0MDY5NCA1LjI4MzMzbDAgNDAxLjMzNDU1MWMwIDIuOTE3NDQ2IDIuMDc4MzM1IDUuMjgzMzMgNC42NDA2OTQgNS4yODMzM2w5Mi4yMjk1NjQgMGMyLjU2MzM4MiAwIDQuNjQxNzE3LTIuMzY1ODg0IDQuNjQxNzE3LTUuMjgzMzNMNDAyLjcyMDEwOCAzMTEuMzMyNzI0QzQwMi43MTkwODQgMzA4LjQxNTI3OCA0MDAuNjQxNzczIDMwNi4wNDkzOTUgMzk4LjA3ODM5MSAzMDYuMDQ5Mzk1eiIgcC1pZD0iMTQwOCIgZmlsbD0iIzcwNTRkZCI+PC9wYXRoPjwvc3ZnPg==); background-size:76rpx 76rpx; width:76rpx;height:76rpx;"></i>
             <i @click="listenerButtonPause" v-bind:style="[zanting.zhuangtai ? zanting.zanting : zanting.kaishi, errorClass]"></i>
-            <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjE3NTQ2IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE2OTIiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTEyIDYyLjM4OTk1NmMtMjQ4LjMxMjQxMiAwLTQ0OS42MTAwNDQgMjAxLjI5NzYzMi00NDkuNjEwMDQ0IDQ0OS42MTAwNDRzMjAxLjI5NzYzMiA0NDkuNjEwMDQ0IDQ0OS42MTAwNDQgNDQ5LjYxMDA0NCA0NDkuNjEwMDQ0LTIwMS4yOTc2MzIgNDQ5LjYxMDA0NC00NDkuNjEwMDQ0Uzc2MC4zMTI0MTIgNjIuMzg5OTU2IDUxMiA2Mi4zODk5NTZ6TTc4Ni41MDcwMDQgNzg2LjUwNzAwNGMtMzUuNjcyNDU0IDM1LjY3MjQ1NC03Ny4xOTYxNzMgNjMuNjcyMTU4LTEyMy40MTY4NjcgODMuMjIyNDIzLTQ3LjgyMTE0NSAyMC4yMjY2Ny05OC42NTU5MjcgMzAuNDgyMjQ1LTE1MS4wOTExNiAzMC40ODIyNDUtNTIuNDM1MjMzIDAtMTAzLjI3MDAxNS0xMC4yNTU1NzUtMTUxLjA5MTE2LTMwLjQ4MjI0NS00Ni4yMjA2OTQtMTkuNTQ5MjQyLTg3Ljc0NDQxMy00Ny41NDk5NjktMTIzLjQxNjg2Ny04My4yMjI0MjMtMzUuNjcyNDU0LTM1LjY3MjQ1NC02My42NzIxNTgtNzcuMTk2MTczLTgzLjIyMjQyMy0xMjMuNDE2ODY3LTIwLjIyNjY3LTQ3LjgyMTE0NS0zMC40ODIyNDUtOTguNjU1OTI3LTMwLjQ4MjI0NS0xNTEuMDkwMTM3IDAtNTIuNDM1MjMzIDEwLjI1NTU3NS0xMDMuMjcwMDE1IDMwLjQ4MjI0NS0xNTEuMDkxMTYgMTkuNTQ5MjQyLTQ2LjIyMDY5NCA0Ny41NDk5NjktODcuNzQ0NDEzIDgzLjIyMjQyMy0xMjMuNDE2ODY3IDM1LjY3MjQ1NC0zNS42NzI0NTQgNzcuMTk2MTczLTYzLjY3MjE1OCAxMjMuNDE2ODY3LTgzLjIyMjQyMyA0Ny44MjExNDUtMjAuMjI2NjcgOTguNjU0OTA0LTMwLjQ4MjI0NSAxNTEuMDkxMTYtMzAuNDgyMjQ1IDUyLjQzNTIzMyAwIDEwMy4yNjg5OTIgMTAuMjU1NTc1IDE1MS4wOTExNiAzMC40ODIyNDUgNDYuMjIwNjk0IDE5LjU0OTI0MiA4Ny43NDQ0MTMgNDcuNTQ5OTY5IDEyMy40MTY4NjcgODMuMjIyNDIzIDM1LjY3MjQ1NCAzNS42NzI0NTQgNjMuNjcyMTU4IDc3LjE5NjE3MyA4My4yMjI0MjMgMTIzLjQxNjg2NyAyMC4yMjY2NyA0Ny44MjExNDUgMzAuNDgyMjQ1IDk4LjY1NTkyNyAzMC40ODIyNDUgMTUxLjA5MTE2IDAgNTIuNDM1MjMzLTEwLjI1NTU3NSAxMDMuMjY4OTkyLTMwLjQ4MjI0NSAxNTEuMDkwMTM3Qzg1MC4xNzkxNjMgNzA5LjMxMDgzMSA4MjIuMTc5NDU4IDc1MC44MzQ1NSA3ODYuNTA3MDA0IDc4Ni41MDcwMDR6TTU3NS42NTM3MzkgNTA3Ljk4MDQ1MyAzMDguMTY5Njg1IDMwNS42Njc3MDFjLTMuMDk0NDc4LTEuNzg2NjkzLTYuOTYxNTUyIDAuNDQ2MTYyLTYuOTYxNTUyIDQuMDE5NTQ3bDAgNDA0LjYyNTUwNGMwIDMuNTcyMzYyIDMuODY4MDk3IDUuODA2MjM5IDYuOTYxNTUyIDQuMDE5NTQ3bDI2Ny40ODQwNTQtMjAyLjMxMjc1MkM1NzguNzQ3MTkzIDUxNC4yMzI4NTQgNTc4Ljc0NzE5MyA1MDkuNzY3MTQ2IDU3NS42NTM3MzkgNTA3Ljk4MDQ1M3pNNzE4LjE1MTE3NCAzMDYuMDQ5Mzk1bC05Mi4yMjk1NjQgMGMtMi41NjMzODIgMC00LjY0MDY5NCAyLjM2NTg4NC00LjY0MDY5NCA1LjI4MzMzbDAgNDAxLjMzNDU1MWMwIDIuOTE3NDQ2IDIuMDc4MzM1IDUuMjgzMzMgNC42NDA2OTQgNS4yODMzM2w5Mi4yMjk1NjQgMGMyLjU2MzM4MiAwIDQuNjQwNjk0LTIuMzY1ODg0IDQuNjQwNjk0LTUuMjgzMzNMNzIyLjc5MTg2NyAzMTEuMzMyNzI0QzcyMi43OTE4NjcgMzA4LjQxNTI3OCA3MjAuNzE0NTU2IDMwNi4wNDkzOTUgNzE4LjE1MTE3NCAzMDYuMDQ5Mzk1eiIgcC1pZD0iMTY5MyIgZmlsbD0iIzcwNTRkZCI+PC9wYXRoPjwvc3ZnPg==); background-size:76rpx 76rpx; width:76rpx;height:76rpx;"></i>
-            <i style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjY2NjgyIiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI0NTkiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNMzg0IDMyMGw1MTIgMGMzOC40IDAgNjQtMjUuNiA2NC02NCAwLTM4LjQtMjUuNi02NC02NC02NEwzODQgMTkyQzM0NS42IDE5MiAzMjAgMjE3LjYgMzIwIDI1NiAzMjAgMjk0LjQgMzQ1LjYgMzIwIDM4NCAzMjB6TTg5NiA0NDggMzg0IDQ0OEMzNDUuNiA0NDggMzIwIDQ3My42IDMyMCA1MTJjMCAzOC40IDI1LjYgNjQgNjQgNjRsNTEyIDBjMzguNCAwIDY0LTI1LjYgNjQtNjRDOTYwIDQ3My42IDkzNC40IDQ0OCA4OTYgNDQ4ek04OTYgNzA0IDM4NCA3MDRjLTM4LjQgMC02NCAyNS42LTY0IDY0IDAgMzguNCAyNS42IDY0IDY0IDY0bDUxMiAwYzM4LjQgMCA2NC0yNS42IDY0LTY0Qzk2MCA3MjkuNiA5MzQuNCA3MDQgODk2IDcwNHpNMTI4IDE5MkM4OS42IDE5MiA2NCAyMTcuNiA2NCAyNTZjMCAzOC40IDI1LjYgNjQgNjQgNjRzNjQtMjUuNiA2NC02NEMxOTIgMjE3LjYgMTY2LjQgMTkyIDEyOCAxOTJ6TTEyOCA0NDhDODkuNiA0NDggNjQgNDczLjYgNjQgNTEyYzAgMzguNCAyNS42IDY0IDY0IDY0czY0LTI1LjYgNjQtNjRDMTkyIDQ3My42IDE2Ni40IDQ0OCAxMjggNDQ4ek0xMjggNzA0Yy0zOC40IDAtNjQgMjUuNi02NCA2NCAwIDM4LjQgMjUuNiA2NCA2NCA2NHM2NC0yNS42IDY0LTY0QzE5MiA3MjkuNiAxNjYuNCA3MDQgMTI4IDcwNHoiIHAtaWQ9IjI0NjAiIGZpbGw9IiM3MDU0ZGQiPjwvcGF0aD48L3N2Zz4=); background-size:56rpx 56rpx; width:56rpx;height:56rpx;"></i>
+            <i @click="nextSong" style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjE3NTQ2IiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjE2OTIiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNNTEyIDYyLjM4OTk1NmMtMjQ4LjMxMjQxMiAwLTQ0OS42MTAwNDQgMjAxLjI5NzYzMi00NDkuNjEwMDQ0IDQ0OS42MTAwNDRzMjAxLjI5NzYzMiA0NDkuNjEwMDQ0IDQ0OS42MTAwNDQgNDQ5LjYxMDA0NCA0NDkuNjEwMDQ0LTIwMS4yOTc2MzIgNDQ5LjYxMDA0NC00NDkuNjEwMDQ0Uzc2MC4zMTI0MTIgNjIuMzg5OTU2IDUxMiA2Mi4zODk5NTZ6TTc4Ni41MDcwMDQgNzg2LjUwNzAwNGMtMzUuNjcyNDU0IDM1LjY3MjQ1NC03Ny4xOTYxNzMgNjMuNjcyMTU4LTEyMy40MTY4NjcgODMuMjIyNDIzLTQ3LjgyMTE0NSAyMC4yMjY2Ny05OC42NTU5MjcgMzAuNDgyMjQ1LTE1MS4wOTExNiAzMC40ODIyNDUtNTIuNDM1MjMzIDAtMTAzLjI3MDAxNS0xMC4yNTU1NzUtMTUxLjA5MTE2LTMwLjQ4MjI0NS00Ni4yMjA2OTQtMTkuNTQ5MjQyLTg3Ljc0NDQxMy00Ny41NDk5NjktMTIzLjQxNjg2Ny04My4yMjI0MjMtMzUuNjcyNDU0LTM1LjY3MjQ1NC02My42NzIxNTgtNzcuMTk2MTczLTgzLjIyMjQyMy0xMjMuNDE2ODY3LTIwLjIyNjY3LTQ3LjgyMTE0NS0zMC40ODIyNDUtOTguNjU1OTI3LTMwLjQ4MjI0NS0xNTEuMDkwMTM3IDAtNTIuNDM1MjMzIDEwLjI1NTU3NS0xMDMuMjcwMDE1IDMwLjQ4MjI0NS0xNTEuMDkxMTYgMTkuNTQ5MjQyLTQ2LjIyMDY5NCA0Ny41NDk5NjktODcuNzQ0NDEzIDgzLjIyMjQyMy0xMjMuNDE2ODY3IDM1LjY3MjQ1NC0zNS42NzI0NTQgNzcuMTk2MTczLTYzLjY3MjE1OCAxMjMuNDE2ODY3LTgzLjIyMjQyMyA0Ny44MjExNDUtMjAuMjI2NjcgOTguNjU0OTA0LTMwLjQ4MjI0NSAxNTEuMDkxMTYtMzAuNDgyMjQ1IDUyLjQzNTIzMyAwIDEwMy4yNjg5OTIgMTAuMjU1NTc1IDE1MS4wOTExNiAzMC40ODIyNDUgNDYuMjIwNjk0IDE5LjU0OTI0MiA4Ny43NDQ0MTMgNDcuNTQ5OTY5IDEyMy40MTY4NjcgODMuMjIyNDIzIDM1LjY3MjQ1NCAzNS42NzI0NTQgNjMuNjcyMTU4IDc3LjE5NjE3MyA4My4yMjI0MjMgMTIzLjQxNjg2NyAyMC4yMjY2NyA0Ny44MjExNDUgMzAuNDgyMjQ1IDk4LjY1NTkyNyAzMC40ODIyNDUgMTUxLjA5MTE2IDAgNTIuNDM1MjMzLTEwLjI1NTU3NSAxMDMuMjY4OTkyLTMwLjQ4MjI0NSAxNTEuMDkwMTM3Qzg1MC4xNzkxNjMgNzA5LjMxMDgzMSA4MjIuMTc5NDU4IDc1MC44MzQ1NSA3ODYuNTA3MDA0IDc4Ni41MDcwMDR6TTU3NS42NTM3MzkgNTA3Ljk4MDQ1MyAzMDguMTY5Njg1IDMwNS42Njc3MDFjLTMuMDk0NDc4LTEuNzg2NjkzLTYuOTYxNTUyIDAuNDQ2MTYyLTYuOTYxNTUyIDQuMDE5NTQ3bDAgNDA0LjYyNTUwNGMwIDMuNTcyMzYyIDMuODY4MDk3IDUuODA2MjM5IDYuOTYxNTUyIDQuMDE5NTQ3bDI2Ny40ODQwNTQtMjAyLjMxMjc1MkM1NzguNzQ3MTkzIDUxNC4yMzI4NTQgNTc4Ljc0NzE5MyA1MDkuNzY3MTQ2IDU3NS42NTM3MzkgNTA3Ljk4MDQ1M3pNNzE4LjE1MTE3NCAzMDYuMDQ5Mzk1bC05Mi4yMjk1NjQgMGMtMi41NjMzODIgMC00LjY0MDY5NCAyLjM2NTg4NC00LjY0MDY5NCA1LjI4MzMzbDAgNDAxLjMzNDU1MWMwIDIuOTE3NDQ2IDIuMDc4MzM1IDUuMjgzMzMgNC42NDA2OTQgNS4yODMzM2w5Mi4yMjk1NjQgMGMyLjU2MzM4MiAwIDQuNjQwNjk0LTIuMzY1ODg0IDQuNjQwNjk0LTUuMjgzMzNMNzIyLjc5MTg2NyAzMTEuMzMyNzI0QzcyMi43OTE4NjcgMzA4LjQxNTI3OCA3MjAuNzE0NTU2IDMwNi4wNDkzOTUgNzE4LjE1MTE3NCAzMDYuMDQ5Mzk1eiIgcC1pZD0iMTY5MyIgZmlsbD0iIzcwNTRkZCI+PC9wYXRoPjwvc3ZnPg==); background-size:76rpx 76rpx; width:76rpx;height:76rpx;"></i>
+            <i @click="playing" style="background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNTI1MTUwMjY2NjgyIiBjbGFzcz0iaWNvbiIgc3R5bGU9IiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjI0NTkiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PGRlZnM+PHN0eWxlIHR5cGU9InRleHQvY3NzIj48L3N0eWxlPjwvZGVmcz48cGF0aCBkPSJNMzg0IDMyMGw1MTIgMGMzOC40IDAgNjQtMjUuNiA2NC02NCAwLTM4LjQtMjUuNi02NC02NC02NEwzODQgMTkyQzM0NS42IDE5MiAzMjAgMjE3LjYgMzIwIDI1NiAzMjAgMjk0LjQgMzQ1LjYgMzIwIDM4NCAzMjB6TTg5NiA0NDggMzg0IDQ0OEMzNDUuNiA0NDggMzIwIDQ3My42IDMyMCA1MTJjMCAzOC40IDI1LjYgNjQgNjQgNjRsNTEyIDBjMzguNCAwIDY0LTI1LjYgNjQtNjRDOTYwIDQ3My42IDkzNC40IDQ0OCA4OTYgNDQ4ek04OTYgNzA0IDM4NCA3MDRjLTM4LjQgMC02NCAyNS42LTY0IDY0IDAgMzguNCAyNS42IDY0IDY0IDY0bDUxMiAwYzM4LjQgMCA2NC0yNS42IDY0LTY0Qzk2MCA3MjkuNiA5MzQuNCA3MDQgODk2IDcwNHpNMTI4IDE5MkM4OS42IDE5MiA2NCAyMTcuNiA2NCAyNTZjMCAzOC40IDI1LjYgNjQgNjQgNjRzNjQtMjUuNiA2NC02NEMxOTIgMjE3LjYgMTY2LjQgMTkyIDEyOCAxOTJ6TTEyOCA0NDhDODkuNiA0NDggNjQgNDczLjYgNjQgNTEyYzAgMzguNCAyNS42IDY0IDY0IDY0czY0LTI1LjYgNjQtNjRDMTkyIDQ3My42IDE2Ni40IDQ0OCAxMjggNDQ4ek0xMjggNzA0Yy0zOC40IDAtNjQgMjUuNi02NCA2NCAwIDM4LjQgMjUuNiA2NCA2NCA2NHM2NC0yNS42IDY0LTY0QzE5MiA3MjkuNiAxNjYuNCA3MDQgMTI4IDcwNHoiIHAtaWQ9IjI0NjAiIGZpbGw9IiM3MDU0ZGQiPjwvcGF0aD48L3N2Zz4=); background-size:56rpx 56rpx; width:56rpx;height:56rpx;"></i>
         </div>
 
     </div>
@@ -42,6 +42,7 @@ export default {
     data() {
         return {
             id: "",
+            index: 0,
             musicUrlData: "",
             musicDetailsData: {},
             musicComment: {},
@@ -71,13 +72,41 @@ export default {
         wx.setStorageSync("status", true);
         this.xuanzhuan = true;
         this.zanting.zhuangtai = true;
-        let id = options.id;
-        this.id = id;
+        this.id = options.id;
 
-        var musicUrl = "http://localhost:3000/music/url?id=" + id;
-        var musicDetails = "http://localhost:3000/song/detail?ids=" + id;
+        let playing = wx.getStorageSync("playing");
+        let chongfu = [];
+        for (let index = 0; index < playing.length; index++) {
+            const element = playing[index];
+
+            if (element.id == this.id) {
+                element.status = true;
+
+                var elementIDxiangtong = true;
+            } else {
+                element.status = false;
+            }
+            chongfu.push(element.id);
+        }
+
+        for (let index = 0; index < chongfu.length; index++) {
+            let elementq = chongfu[index];
+        }
+
+        if (!elementIDxiangtong) {
+            let status = {
+                id: this.id,
+                status: true
+            };
+            playing.unshift(status);
+        }
+
+        wx.setStorageSync("playing", playing);
+
+        var musicUrl = "http://localhost:3000/music/url?id=" + this.id;
+        var musicDetails = "http://localhost:3000/song/detail?ids=" + this.id;
         var musicComment =
-            "http://localhost:3000/comment/music?id=" + id + "&limit=100";
+            "http://localhost:3000/comment/music?id=" + this.id + "&limit=100";
 
         const backgroundAudioManager = wx.getBackgroundAudioManager();
 
@@ -87,11 +116,10 @@ export default {
         var postsCollected = wx.getStorageSync("posts_collected");
         // 打开一个新的页面，因为前一个页面有了缓存集，所以会进行这一步
         if (postsCollected) {
-            var postcollected = postsCollected[id];
+            var postcollected = postsCollected[this.id];
 
             // 如果是一个新的页面，那么给collected传递一个undefind会报错
-            this.dianzan.zhuangtai = postcollected
-            
+            this.dianzan.zhuangtai = postcollected;
         } else {
             //首次直接跳到else
             var _postcollected = {};
@@ -102,7 +130,7 @@ export default {
             });
         }
 
-        if (id == musicId) {
+        if (this.id == musicId) {
             fly
                 .get(musicUrl, {})
                 .then(d => {
@@ -112,7 +140,7 @@ export default {
                     console.log(err.status, err.message);
                 });
         } else {
-            wx.setStorageSync("musicId", id);
+            wx.setStorageSync("musicId", this.id);
 
             fly
                 .get(musicUrl, {})
@@ -172,6 +200,124 @@ export default {
             // callback
             console.log("onBackgroundAudioPause");
         });
+
+        wx.getBackgroundAudioManager().onStop(()=>{
+            wx.setStorageSync("playing",[]);
+            wx.setStorageSync("status", false);
+            wx.setStorageSync("musicId", '');
+
+            const url = "../index/main";
+            wx.navigateTo({ url });
+        })
+
+        wx.getBackgroundAudioManager().onEnded(()=>{
+            let playListziran = wx.getStorageSync("playing");
+            for (let index = 0; index < playListziran.length; index++) {
+                const element = playListziran[index].id;
+                if (this.id == element) {
+                    this.index = index;
+                    this.id = playListziran[index - 1].id;
+                    break;
+                }
+            }
+            var musicUrl = "http://localhost:3000/music/url?id=" + this.id;
+            var musicDetails =
+                "http://localhost:3000/song/detail?ids=" + this.id;
+            var musicComment =
+                "http://localhost:3000/comment/music?id=" +
+                this.id +
+                "&limit=100";
+            const backgroundAudioManager = wx.getBackgroundAudioManager();
+
+            this.status = true;
+
+            // 获取是否收藏缓存，首次因为还未设置所以为 false, (因为缓存为键值对格式，所以初始化时候要用{}把它包起来，直接初始化成数组)
+            var postsCollected = wx.getStorageSync("posts_collected");
+            // 打开一个新的页面，因为前一个页面有了缓存集，所以会进行这一步
+            if (postsCollected) {
+                var postcollected = postsCollected[this.id];
+
+                // 如果是一个新的页面，那么给collected传递一个undefind会报错
+                this.dianzan.zhuangtai = postcollected;
+            } else {
+                //首次直接跳到else
+                var _postcollected = {};
+                _postcollected = false;
+                // 把初始化的值变为数组 ！
+                wx.setStorageSync("posts_collected", {
+                    postcollected: _postcollected
+                });
+            }
+
+            wx.setStorageSync("musicId", this.id);
+            fly
+                .get(musicUrl, {})
+                .then(d => {
+                    this.musicUrlData = d.data.data[0].url;
+
+                    backgroundAudioManager.src = this.musicUrlData;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            fly
+                .get(musicDetails, {})
+                .then(d => {
+                    this.musicDetailsData = d.data;
+                    this.musicDetailsImg = d.data.songs[0].al.picUrl;
+                    let musicDetailsTitle = d.data.songs[0].al.name;
+                    this.musicDetailsName = d.data.songs[0].ar;
+
+                    backgroundAudioManager.title = musicDetailsTitle;
+                    backgroundAudioManager.singer = this.musicDetailsName;
+                    backgroundAudioManager.coverImgUrl = this.musicDetailsImg;
+
+                    wx.setNavigationBarTitle({
+                        title: musicDetailsTitle //页面标题为路由参数
+                    });
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+            fly
+                .get(musicComment, {})
+                .then(d => {
+                    this.musicComment = d.data.comments;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            let chongfus = [];
+
+            for (let index = 0; index < playListziran.length; index++) {
+                const element = playListziran[index];
+
+                if (element.id == this.id) {
+                    element.status = true;
+
+                    var elementIDxiangtong = true;
+                } else {
+                    element.status = false;
+                }
+                chongfus.push(element.id);
+            }
+
+            for (let index = 0; index < chongfus.length; index++) {
+                let elementq = chongfus[index];
+            }
+
+            if (!elementIDxiangtong) {
+                let status = {
+                    id: this.id,
+                    status: true
+                };
+                playListziran.unshift(status);
+            }
+
+            wx.setStorageSync("playing", playListziran);
+        })
     },
     methods: {
         //监听button暂停按钮
@@ -207,9 +353,230 @@ export default {
             //重新写入缓存集
             wx.setStorageSync("posts_collected", postsCollected);
 
-            this.dianzan.zhuangtai = !this.dianzan.zhuangtai
+            this.dianzan.zhuangtai = !this.dianzan.zhuangtai;
         },
-        
+        playing: function() {
+            wx.switchTab({
+                url: "../playlist/main" //注意switchTab只能跳转到带有tab的页面，不能跳转到不带tab的页面
+            });
+        },
+        PrevSong: function() {
+            
+            let playListPrev = wx.getStorageSync("playing");
+            for (let index = 0; index < playListPrev.length; index++) {
+                const element = playListPrev[index].id;
+                if (this.id == element) {
+                    this.index = index;
+                    this.id = playListPrev[index + 1].id;
+                    break;
+                }
+            }
+            var musicUrl = "http://localhost:3000/music/url?id=" + this.id;
+            var musicDetails =
+                "http://localhost:3000/song/detail?ids=" + this.id;
+            var musicComment =
+                "http://localhost:3000/comment/music?id=" +
+                this.id +
+                "&limit=100";
+            const backgroundAudioManager = wx.getBackgroundAudioManager();
+
+            this.status = true;
+
+            // 获取是否收藏缓存，首次因为还未设置所以为 false, (因为缓存为键值对格式，所以初始化时候要用{}把它包起来，直接初始化成数组)
+            var postsCollected = wx.getStorageSync("posts_collected");
+            // 打开一个新的页面，因为前一个页面有了缓存集，所以会进行这一步
+            if (postsCollected) {
+                var postcollected = postsCollected[this.id];
+
+                // 如果是一个新的页面，那么给collected传递一个undefind会报错
+                this.dianzan.zhuangtai = postcollected;
+            } else {
+                //首次直接跳到else
+                var _postcollected = {};
+                _postcollected = false;
+                // 把初始化的值变为数组 ！
+                wx.setStorageSync("posts_collected", {
+                    postcollected: _postcollected
+                });
+            }
+
+            wx.setStorageSync("musicId", this.id);
+            fly
+                .get(musicUrl, {})
+                .then(d => {
+                    this.musicUrlData = d.data.data[0].url;
+
+                    backgroundAudioManager.src = this.musicUrlData;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            fly
+                .get(musicDetails, {})
+                .then(d => {
+                    this.musicDetailsData = d.data;
+                    this.musicDetailsImg = d.data.songs[0].al.picUrl;
+                    let musicDetailsTitle = d.data.songs[0].al.name;
+                    this.musicDetailsName = d.data.songs[0].ar;
+
+                    backgroundAudioManager.title = musicDetailsTitle;
+                    backgroundAudioManager.singer = this.musicDetailsName;
+                    backgroundAudioManager.coverImgUrl = this.musicDetailsImg;
+
+                    wx.setNavigationBarTitle({
+                        title: musicDetailsTitle //页面标题为路由参数
+                    });
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+            fly
+                .get(musicComment, {})
+                .then(d => {
+                    this.musicComment = d.data.comments;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            let chongfuss = [];
+
+            for (let index = 0; index < playListPrev.length; index++) {
+                const element = playListPrev[index];
+
+                if (element.id == this.id) {
+                    element.status = true;
+
+                    var elementIDxiangtong = true;
+                } else {
+                    element.status = false;
+                }
+                chongfuss.push(element.id);
+            }
+
+            for (let index = 0; index < chongfuss.length; index++) {
+                let elementq = chongfuss[index];
+            }
+
+            if (!elementIDxiangtong) {
+                let status = {
+                    id: this.id,
+                    status: true
+                };
+                playListPrev.unshift(status);
+            }
+
+            wx.setStorageSync("playing", playListPrev);
+        },
+        nextSong: function() {
+            let playList = wx.getStorageSync("playing");
+            for (let index = 0; index < playList.length; index++) {
+                const element = playList[index].id;
+                if (this.id == element) {
+                    this.index = index;
+                    this.id = playList[index - 1].id;
+                    break;
+                }
+            }
+            var musicUrl = "http://localhost:3000/music/url?id=" + this.id;
+            var musicDetails =
+                "http://localhost:3000/song/detail?ids=" + this.id;
+            var musicComment =
+                "http://localhost:3000/comment/music?id=" +
+                this.id +
+                "&limit=100";
+            const backgroundAudioManager = wx.getBackgroundAudioManager();
+
+            this.status = true;
+
+            // 获取是否收藏缓存，首次因为还未设置所以为 false, (因为缓存为键值对格式，所以初始化时候要用{}把它包起来，直接初始化成数组)
+            var postsCollected = wx.getStorageSync("posts_collected");
+            // 打开一个新的页面，因为前一个页面有了缓存集，所以会进行这一步
+            if (postsCollected) {
+                var postcollected = postsCollected[this.id];
+
+                // 如果是一个新的页面，那么给collected传递一个undefind会报错
+                this.dianzan.zhuangtai = postcollected;
+            } else {
+                //首次直接跳到else
+                var _postcollected = {};
+                _postcollected = false;
+                // 把初始化的值变为数组 ！
+                wx.setStorageSync("posts_collected", {
+                    postcollected: _postcollected
+                });
+            }
+
+            wx.setStorageSync("musicId", this.id);
+            fly
+                .get(musicUrl, {})
+                .then(d => {
+                    this.musicUrlData = d.data.data[0].url;
+
+                    backgroundAudioManager.src = this.musicUrlData;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            fly
+                .get(musicDetails, {})
+                .then(d => {
+                    this.musicDetailsData = d.data;
+                    this.musicDetailsImg = d.data.songs[0].al.picUrl;
+                    let musicDetailsTitle = d.data.songs[0].al.name;
+                    this.musicDetailsName = d.data.songs[0].ar;
+
+                    backgroundAudioManager.title = musicDetailsTitle;
+                    backgroundAudioManager.singer = this.musicDetailsName;
+                    backgroundAudioManager.coverImgUrl = this.musicDetailsImg;
+
+                    wx.setNavigationBarTitle({
+                        title: musicDetailsTitle //页面标题为路由参数
+                    });
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+            fly
+                .get(musicComment, {})
+                .then(d => {
+                    this.musicComment = d.data.comments;
+                })
+                .catch(err => {
+                    console.log(err.status, err.message);
+                });
+
+            let chongfus = [];
+
+            for (let index = 0; index < playList.length; index++) {
+                const element = playList[index];
+
+                if (element.id == this.id) {
+                    element.status = true;
+
+                    var elementIDxiangtong = true;
+                } else {
+                    element.status = false;
+                }
+                chongfus.push(element.id);
+            }
+
+            for (let index = 0; index < chongfus.length; index++) {
+                let elementq = chongfus[index];
+            }
+
+            if (!elementIDxiangtong) {
+                let status = {
+                    id: this.id,
+                    status: true
+                };
+                playList.unshift(status);
+            }
+
+            wx.setStorageSync("playing", playList);
+        }
     }
 };
 </script>
