@@ -45,7 +45,7 @@ $ set PORT=4000 && node app.js
 此源码仅可用作学习和交流,请勿用作商业用途及销售获利
 
 
-- 前端代码地址：[https://github.com/x751685875/Music-WeXin](https://github.com/x751685875/Music-WeXin)
+- 前端代码地址：[https://github.com/x751685875/mpvue-music](https://github.com/x751685875/mpvue-music)
 - 后端网易云API代码地址：采用网易云API。地址为 [https://binaryify.github.io/NeteaseCloudMusicApi/#/](https://binaryify.github.io/NeteaseCloudMusicApi/#/)
 
 
