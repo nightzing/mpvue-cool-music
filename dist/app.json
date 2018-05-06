@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/counter/main",
+    "pages/logs/main",
+    "pages/MoreSongList/main",
+    "pages/music/main",
+    "pages/playlist/main",
+    "pages/ranking/main",
+    "pages/search/main",
+    "pages/songItem/main",
+    "pages/unindex/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音乐播放器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#7054dd",
+    "color": "#fff",
+    "selectedColor": "#5bf4ef",
+    "list": [
+      {
+        "iconPath": "./static/音乐推荐.png",
+        "selectedIconPath": "./static/音乐推荐1.png",
+        "pagePath": "pages/index/main",
+        "text": "发现音乐"
+      },
+      {
+        "iconPath": "./static/列表 (1).png",
+        "selectedIconPath": "./static/列表.png",
+        "pagePath": "pages/playlist/main",
+        "text": "播放列表"
+      }
+    ]
+  }
+}
