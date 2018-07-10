@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@mixin flex($direction:column,$inline:block) {
+  display: if($inline==block,flex,inline-flex);
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}
+
+// 垂直居中
+@mixin f_verticalCenter() {
+  @include flex($direction);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*对ie8的支持*/
+  // .s_center {
+  //     position: absolute;
+  //     top: 50%;
+  //     left: 50%;
+  //     width: $width;
+  //     height: $height;
+  //     margin: -($height/2) 0 0 -($width/2);
+  //     @content;
+  // }
+}
+
