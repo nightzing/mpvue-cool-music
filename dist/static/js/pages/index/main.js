@@ -217,13 +217,6 @@ app.$mount();
 
 /***/ }),
 
-/***/ 40:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 52:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -494,7 +487,7 @@ if (false) {
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(40)
+  __webpack_require__(81)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -559,6 +552,13 @@ __WEBPACK_IMPORTED_MODULE_0_vue___default.a.prototype.$http = request;
 request.config.baseURL = "http://localhost:3000/";
 
 /* harmony default export */ __webpack_exports__["a"] = (request);
+
+/***/ }),
+
+/***/ 81:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ })
 

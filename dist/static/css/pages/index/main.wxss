@@ -6,7 +6,7 @@
   background: #fff;
   padding: 0 40rpx;
 }
-.banner.data-v-122d28cd {
+.content .banner.data-v-122d28cd {
   margin-top: 20rpx;
   width: 670rpx;
   height: 260rpx;

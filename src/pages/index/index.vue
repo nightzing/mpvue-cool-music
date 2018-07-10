@@ -203,21 +203,23 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .content {
     display: flex;
     flex-direction: column;
     background: #fff;
     padding: 0 40rpx;
-}
-.banner {
+
+    .banner {
     margin-top: 20rpx;
     width: 670rpx;
     height: 260rpx;
     box-shadow: 0 16rpx 8rpx -8rpx rgba(0, 0, 0, 0.4);
     border-radius: 10rpx;
     overflow: hidden;
+    }
 }
+
 .bannerSwiper {
     height: 260rpx;
 }
