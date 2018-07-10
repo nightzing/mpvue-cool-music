@@ -1,2 +1,169 @@
 @import "/static/css/vendor.wxss";
-.content.data-v-3628a517{display:flex;flex-direction:column;background:#fff;padding:0 40rpx}.banner.data-v-3628a517{margin-top:20rpx;width:670rpx;height:260rpx;box-shadow:0 16rpx 8rpx -8rpx rgba(0,0,0,.4);border-radius:10rpx;overflow:hidden}.bannerSwiper.data-v-3628a517{height:260rpx}.bannerImg.data-v-3628a517{min-height:260rpx}.bannerImg image.data-v-3628a517{min-width:100%;height:260rpx}.Entrance.data-v-3628a517{padding:40rpx 60rpx 0;width:550rpx}.Entrance.data-v-3628a517,.EntranceIcon.data-v-3628a517{display:flex;justify-content:space-between;align-items:center}.EntranceIcon.data-v-3628a517{flex-direction:column;overflow:hidden}.EntranceIcon ._p.data-v-3628a517{font-size:24rpx}.EntranceIcon ._img.data-v-3628a517{width:72rpx;height:72rpx}.songList.data-v-3628a517{margin-top:40rpx;padding-top:20rpx;border-top:2rpx solid #f3f3f3}.songTop.data-v-3628a517{text-align:center;font-size:32rpx;position:relative}.songTop ._i.data-v-3628a517{position:absolute;right:0;top:50%;margin-top:-12rpx}.songitem.data-v-3628a517{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:30rpx}.songWidth.data-v-3628a517{width:210rpx;margin-bottom:30rpx}.songWidth>._p.data-v-3628a517{padding-top:10rpx;font-size:24rpx;overflow:hidden;height:68rpx}.songImg.data-v-3628a517{width:210rpx;height:210rpx;position:relative}.songImg>._p.data-v-3628a517{width:200rpx;font-size:20rpx;background:rgba(0,0,0,.4);position:absolute;bottom:0;right:0;color:#fff;text-align:right;padding-right:10rpx;border-radius:0 0 10rpx 10rpx}.songImg ._img.data-v-3628a517{width:210rpx;height:210rpx;border-radius:10rpx}.footer.data-v-3628a517{position:fixed;bottom:0;width:750rpx;height:100rpx;background-color:#7054dd}.Single.data-v-3628a517{margin-top:30rpx}.SingleWidth.data-v-3628a517{width:670rpx;display:flex;flex-direction:row;justify-content:space-between;align-items:center}.SingleWidth>._div.data-v-3628a517{display:flex;margin-bottom:30rpx}.SingleWidth>._div ._img.data-v-3628a517{width:120rpx;height:120rpx;border-radius:10rpx}.SingleWidth>._div>._div.data-v-3628a517{margin-left:20rpx;display:flex;flex-direction:column;justify-content:center}.name.data-v-3628a517{font-size:32rpx}.people.data-v-3628a517{margin-top:10rpx;font-size:24rpx;display:flex;color:#999;max-width:420rpx;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.Playing.data-v-3628a517{position:fixed;bottom:20rpx;right:40rpx;width:120rpx;height:120rpx;background:#fff;border:4rpx solid #7054dd;border-radius:50%;overflow:hidden}.search.data-v-3628a517{display:flex}.inputSearch.data-v-3628a517{flex:1;margin-right:20rpx;border-radius:60rpx;border:2rpx solid #7054dd;font-size:24rpx;padding-left:20rpx}
+
+.content.data-v-122d28cd {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 0 40rpx;
+}
+.banner.data-v-122d28cd {
+  margin-top: 20rpx;
+  width: 670rpx;
+  height: 260rpx;
+  box-shadow: 0 16rpx 8rpx -8rpx rgba(0, 0, 0, 0.4);
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.bannerSwiper.data-v-122d28cd {
+  height: 260rpx;
+}
+.bannerImg.data-v-122d28cd {
+  min-height: 260rpx;
+}
+.bannerImg image.data-v-122d28cd {
+  min-width: 100%;
+  height: 260rpx;
+}
+.Entrance.data-v-122d28cd {
+  padding: 40rpx 60rpx 0;
+  width: 550rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.EntranceIcon.data-v-122d28cd {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.EntranceIcon ._p.data-v-122d28cd {
+  font-size: 24rpx;
+}
+.EntranceIcon ._img.data-v-122d28cd {
+  width: 72rpx;
+  height: 72rpx;
+}
+.songList.data-v-122d28cd {
+  margin-top: 40rpx;
+  padding-top: 20rpx;
+  border-top: 2rpx solid #f3f3f3;
+}
+.songTop.data-v-122d28cd {
+  text-align: center;
+  font-size: 32rpx;
+  position: relative;
+}
+.songTop ._i.data-v-122d28cd {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -12rpx;
+}
+.songitem.data-v-122d28cd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+}
+.songWidth.data-v-122d28cd {
+  width: 210rpx;
+  margin-bottom: 30rpx;
+}
+.songWidth > ._p.data-v-122d28cd {
+  padding-top: 10rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  height: 68rpx;
+}
+.songImg.data-v-122d28cd {
+  width: 210rpx;
+  height: 210rpx;
+  position: relative;
+}
+.songImg > ._p.data-v-122d28cd {
+  width: 200rpx;
+  font-size: 20rpx;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  text-align: right;
+  padding-right: 10rpx;
+  border-radius: 0 0 10rpx 10rpx;
+}
+.songImg ._img.data-v-122d28cd {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 10rpx;
+}
+.footer.data-v-122d28cd {
+  position: fixed;
+  bottom: 0;
+  width: 750rpx;
+  height: 100rpx;
+  background-color: #7054dd;
+}
+.Single.data-v-122d28cd {
+  margin-top: 30rpx;
+}
+.SingleWidth.data-v-122d28cd {
+  width: 670rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.SingleWidth > ._div.data-v-122d28cd {
+  display: flex;
+  margin-bottom: 30rpx;
+}
+.SingleWidth > ._div ._img.data-v-122d28cd {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 10rpx;
+}
+.SingleWidth > ._div > ._div.data-v-122d28cd {
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.name.data-v-122d28cd {
+  font-size: 32rpx;
+}
+.people.data-v-122d28cd {
+  margin-top: 10rpx;
+  font-size: 24rpx;
+  display: flex;
+  color: #999;
+  max-width: 420rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.Playing.data-v-122d28cd {
+  position: fixed;
+  bottom: 20rpx;
+  right: 40rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background: #fff;
+  border: 4rpx solid #7054dd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.search.data-v-122d28cd {
+  display: flex;
+}
+.inputSearch.data-v-122d28cd {
+  flex: 1;
+  margin-right: 20rpx;
+  border-radius: 60rpx;
+  border: 2rpx solid #7054dd;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}

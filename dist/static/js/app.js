@@ -1,1 +1,128 @@
-global.webpackJsonp([11],{"0nYk":function(a,n){},M93x:function(a,n,e){"use strict";var t=e("Mw+1");var i=function(a){e("0nYk")},o=e("ybqe")(t.a,null,i,null,null);n.a=o.exports},"Mw+1":function(a,n,e){"use strict";n.a={created:function(){var a=wx.getStorageSync("logs")||[];a.push(Date.now()),wx.setStorageSync("logs",a)}}},NHnr:function(a,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0});var t=e("5nAL"),i=e.n(t),o=e("M93x");i.a.config.productionTip=!1,o.a.mpType="app",new i.a(o.a).$mount(),n.default={config:{pages:["pages/logs/main","pages/search/main","pages/ranking/main","pages/songItem/main","pages/MoreSongList/main","pages/unindex/main","pages/playlist/main","^pages/index/main","pages/music/main"],window:{backgroundTextStyle:"light",navigationBarBackgroundColor:"#fff",navigationBarTitleText:"音乐播放器",navigationBarTextStyle:"black"},tabBar:{backgroundColor:"#7054dd",color:"#fff",selectedColor:"#5bf4ef",list:[{iconPath:"./static/音乐推荐.png",selectedIconPath:"./static/音乐推荐1.png",pagePath:"pages/index/main",text:"发现音乐"},{iconPath:"./static/列表 (1).png",selectedIconPath:"./static/列表.png",pagePath:"pages/playlist/main",text:"播放列表"}]}}}}},["NHnr"]);
+global.webpackJsonp([11],{
+
+/***/ 15:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(4);
+
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.config.productionTip = false;
+__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */].mpType = "app";
+
+var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */]);
+app.$mount();
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  // 这个字段走 app.json
+  config: {
+    // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
+    pages: ["pages/logs/main", "pages/search/main", "pages/ranking/main", "pages/songItem/main", "pages/MoreSongList/main", "pages/unindex/main", "pages/playlist/main", "^pages/index/main", "pages/music/main"],
+    window: {
+      backgroundTextStyle: "light",
+      navigationBarBackgroundColor: "#fff",
+      navigationBarTitleText: "音乐播放器",
+      navigationBarTextStyle: "black"
+    },
+    tabBar: {
+      backgroundColor: "#7054dd",
+      color: "#fff",
+      selectedColor: "#5bf4ef",
+      list: [{
+        iconPath: "./static/音乐推荐.png",
+        selectedIconPath: "./static/音乐推荐1.png",
+        pagePath: "pages/index/main",
+        text: "发现音乐"
+      }, {
+        iconPath: "./static/列表 (1).png",
+        selectedIconPath: "./static/列表.png",
+        pagePath: "pages/playlist/main",
+        text: "播放列表"
+      }]
+    }
+  }
+});
+
+/***/ }),
+
+/***/ 28:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+
+/* harmony default export */ __webpack_exports__["a"] = ({
+  created: function created() {
+    // 调用API从本地缓存中获取数据
+    var logs = wx.getStorageSync('logs') || [];
+    logs.push(Date.now());
+    wx.setStorageSync('logs', logs);
+  }
+});
+
+/***/ }),
+
+/***/ 4:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(28);
+var disposed = false
+function injectStyle (ssrContext) {
+  if (disposed) return
+  __webpack_require__(49)
+}
+var normalizeComponent = __webpack_require__(1)
+/* script */
+
+/* template */
+var __vue_template__ = null
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
+  __vue_template__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "src\\App.vue"
+if (Component.esModule && Object.keys(Component.esModule).some(function (key) {return key !== "default" && key.substr(0, 2) !== "__"})) {console.error("named exports are not supported in *.vue files.")}
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-loader/node_modules/vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-8af6d1f8", Component.options)
+  } else {
+    hotAPI.reload("data-v-8af6d1f8", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+/* harmony default export */ __webpack_exports__["a"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 49:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ })
+
+},[15]);
+//# sourceMappingURL=app.js.map

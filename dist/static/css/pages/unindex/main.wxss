@@ -1,2 +1,32 @@
 @import "/static/css/vendor.wxss";
-.userinfo.data-v-294a2ede{display:flex;flex-direction:column;align-items:center}.userinfo-avatar.data-v-294a2ede{width:128rpx;height:128rpx;margin:20rpx;border-radius:50%}.userinfo-nickname.data-v-294a2ede{color:#aaa}.usermotto.data-v-294a2ede{margin-top:300rpx}.form-control.data-v-294a2ede{display:block;padding:0 24rpx;margin-bottom:10rpx;border:2rpx solid #ccc}.counter.data-v-294a2ede{display:inline-block;margin:20rpx auto;padding:10rpx 20rpx;color:blue;border:2rpx solid blue}
+
+.userinfo.data-v-163c9d14 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar.data-v-163c9d14 {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.userinfo-nickname.data-v-163c9d14 {
+  color: #aaa;
+}
+.usermotto.data-v-163c9d14 {
+  margin-top: 300rpx;
+}
+.form-control.data-v-163c9d14 {
+  display: block;
+  padding: 0 24rpx;
+  margin-bottom: 10rpx;
+  border: 2rpx solid #ccc;
+}
+.counter.data-v-163c9d14 {
+  display: inline-block;
+  margin: 20rpx auto;
+  padding: 10rpx 20rpx;
+  color: blue;
+  border: 2rpx solid blue;
+}

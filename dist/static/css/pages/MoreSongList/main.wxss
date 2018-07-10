@@ -1,2 +1,69 @@
 @import "/static/css/vendor.wxss";
-.content.data-v-b2a117ce{display:flex;flex-direction:column;background:#fff;padding:0 40rpx}.search.data-v-b2a117ce{display:flex}.inputSearch.data-v-b2a117ce{flex:1;margin-right:20rpx;border-radius:60rpx;border:2rpx solid #7054dd;font-size:24rpx;padding-left:20rpx}.Playing.data-v-b2a117ce{position:fixed;bottom:20rpx;left:311rpx;width:120rpx;height:120rpx;background:#fff;border:4rpx solid #7054dd;border-radius:50%;overflow:hidden}.songitem.data-v-b2a117ce{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:30rpx}.songWidth.data-v-b2a117ce{width:210rpx;margin-bottom:30rpx}.songWidth>._p.data-v-b2a117ce{padding-top:10rpx;font-size:24rpx;overflow:hidden;height:68rpx}.songImg.data-v-b2a117ce{width:210rpx;height:210rpx;position:relative}.songImg>._p.data-v-b2a117ce{width:200rpx;font-size:20rpx;background:rgba(0,0,0,.4);position:absolute;bottom:0;right:0;color:#fff;text-align:right;padding-right:10rpx;border-radius:0 0 10rpx 10rpx}.songImg ._img.data-v-b2a117ce{width:210rpx;height:210rpx;border-radius:10rpx}
+
+.content.data-v-123777a3 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 0 40rpx;
+}
+.search.data-v-123777a3 {
+  display: flex;
+}
+.inputSearch.data-v-123777a3 {
+  flex: 1;
+  margin-right: 20rpx;
+  border-radius: 60rpx;
+  border: 2rpx solid #7054dd;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}
+.Playing.data-v-123777a3 {
+  position: fixed;
+  bottom: 20rpx;
+  left: 311rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background: #fff;
+  border: 4rpx solid #7054dd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.songitem.data-v-123777a3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30rpx;
+}
+.songWidth.data-v-123777a3 {
+  width: 210rpx;
+  margin-bottom: 30rpx;
+}
+.songWidth > ._p.data-v-123777a3 {
+  padding-top: 10rpx;
+  font-size: 24rpx;
+  overflow: hidden;
+  height: 68rpx;
+}
+.songImg.data-v-123777a3 {
+  width: 210rpx;
+  height: 210rpx;
+  position: relative;
+}
+.songImg > ._p.data-v-123777a3 {
+  width: 200rpx;
+  font-size: 20rpx;
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  text-align: right;
+  padding-right: 10rpx;
+  border-radius: 0 0 10rpx 10rpx;
+}
+.songImg ._img.data-v-123777a3 {
+  width: 210rpx;
+  height: 210rpx;
+  border-radius: 10rpx;
+}
