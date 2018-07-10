@@ -87,8 +87,7 @@
 </template>
 
 <script>
-var Fly = require("flyio/dist/npm/wx"); //npm引入方式
-var fly = new Fly(); //创建fly实例
+import request from '@/utils/request'
 
 export default {
     data() {
@@ -106,23 +105,26 @@ export default {
             wx.setStorageSync("playing", []);
         }
 
-        fly
-            .get("http://localhost:3000/banner", {})
+        request
+            .get("banner", {})
             .then(d => {
+              
                 this.banner = d.data.banners;
             })
             .catch(err => {
                 console.log(err.status, err.message);
             });
-        fly
-            .get("http://localhost:3000/personalized", {})
+        request
+            .get("personalized", {})
             .then(d => {
+                   console.log('e')
+                console.log(d)
                 this.songitem = d.data.result;
             })
             .catch(err => {
                 console.log(err.status, err.message);
             });
-        fly
+        request
             .get("http://localhost:3000/personalized/newsong", {})
             .then(d => {
                 this.Single = d.data.result;
@@ -130,7 +132,7 @@ export default {
             .catch(err => {
                 console.log(err.status, err.message);
             });
-        fly
+        request
             .get("http://localhost:3000/personalized/djprogram", {})
             .then(d => {
                 this.Radio = d.data.result;

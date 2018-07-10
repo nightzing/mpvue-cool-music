@@ -20,6 +20,7 @@ app.$mount();
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_request__ = __webpack_require__(80);
 //
 //
 //
@@ -109,8 +110,7 @@ app.$mount();
 //
 //
 
-var Fly = __webpack_require__(2); //npm引入方式
-var fly = new Fly(); //创建fly实例
+
 
 /* harmony default export */ __webpack_exports__["a"] = ({
     data: function data() {
@@ -129,22 +129,25 @@ var fly = new Fly(); //创建fly实例
             wx.setStorageSync("playing", []);
         }
 
-        fly.get("http://localhost:3000/banner", {}).then(function (d) {
+        __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("banner", {}).then(function (d) {
+
             _this.banner = d.data.banners;
         }).catch(function (err) {
             console.log(err.status, err.message);
         });
-        fly.get("http://localhost:3000/personalized", {}).then(function (d) {
+        __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("personalized", {}).then(function (d) {
+            console.log('e');
+            console.log(d);
             _this.songitem = d.data.result;
         }).catch(function (err) {
             console.log(err.status, err.message);
         });
-        fly.get("http://localhost:3000/personalized/newsong", {}).then(function (d) {
+        __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("http://localhost:3000/personalized/newsong", {}).then(function (d) {
             _this.Single = d.data.result;
         }).catch(function (err) {
             console.log(err.status, err.message);
         });
-        fly.get("http://localhost:3000/personalized/djprogram", {}).then(function (d) {
+        __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("http://localhost:3000/personalized/djprogram", {}).then(function (d) {
             _this.Radio = d.data.result;
         }).catch(function (err) {
             console.log(err.status, err.message);
@@ -533,6 +536,29 @@ if (false) {(function () {
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
+
+/***/ }),
+
+/***/ 80:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+
+var Fly = __webpack_require__(2); //wx.js为flyio的微信小程序入口文件
+var request = new Fly(); //创建fly实例
+//添加拦截器
+request.interceptors.request.use(function (config, promise) {
+    //给所有请求添加自定义header
+    config.headers["X-Tag"] = "flyio";
+    return config;
+});
+//配置请求基地址
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.prototype.$http = request;
+request.config.baseURL = "http://localhost:3000/";
+
+/* harmony default export */ __webpack_exports__["a"] = (request);
 
 /***/ })
 
