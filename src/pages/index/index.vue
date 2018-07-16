@@ -108,7 +108,7 @@ export default {
         request
             .get("banner", {})
             .then(d => {
-              
+                
                 this.banner = d.data.banners;
             })
             .catch(err => {
@@ -117,7 +117,7 @@ export default {
         request
             .get("personalized", {})
             .then(d => {
-                   console.log('e')
+                
                 console.log(d)
                 this.songitem = d.data.result;
             })
@@ -127,6 +127,7 @@ export default {
         request
             .get("http://localhost:3000/personalized/newsong", {})
             .then(d => {
+                  wx.hideLoading();
                 this.Single = d.data.result;
             })
             .catch(err => {
