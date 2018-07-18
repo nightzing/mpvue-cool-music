@@ -9,8 +9,8 @@
 	},
 	"miniprogramRoot": "./dist/",
 	"compileType": "miniprogram",
-	"appid": "wx37d78aaa814ef326",
-	"projectname": "music",
+	"appid": "touristappid",
+	"projectname": "mpvue-music",
 	"condition": {
 		"search": {
 			"current": -1,

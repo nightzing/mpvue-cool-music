@@ -8,3 +8,40 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 }
+.skeleton {
+  padding: 20rpx;
+}
+.skeleton .skeleton-head,
+.skeleton .skeleton-title,
+.skeleton .skeleton-content {
+  background: rgb(194, 207, 214);
+}
+.skeleton-head {
+  width: 200rpx;
+  height: 200rpx;
+  float: left;
+}
+.skeleton-body {
+  margin-left: 220rpx;
+}
+.skeleton-title {
+  width: 1000rpx;
+  height: 120rpx;
+  transform-origin: left;
+  animation: skeleton-stretch .5s linear infinite alternate;
+}
+.skeleton-content {
+  width: 520rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+  transform-origin: left;
+  animation: skeleton-stretch .5s -.3s linear infinite alternate;
+}
+@keyframes skeleton-stretch {
+from {
+    transform: scalex(1);
+}
+to {
+    transform: scalex(.3);
+}
+}
