@@ -1,4 +1,4 @@
-global.webpackJsonp([9],{
+global.webpackJsonp([2],{
 
 /***/ 19:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -16,11 +16,38 @@ app.$mount();
 
 /***/ }),
 
-/***/ 32:
+/***/ 28:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_request__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+
+var Fly = __webpack_require__(2); //wx.js为flyio的微信小程序入口文件
+var request = new Fly(); //创建fly实例
+wx.showLoading({
+  title: '加载中'
+});
+//添加拦截器
+request.interceptors.request.use(function (config, promise) {
+
+  //给所有请求添加自定义header
+  config.headers["X-Tag"] = "flyio";
+  return config;
+});
+//配置请求基地址
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.prototype.$http = request;
+request.config.baseURL = "http://localhost:3000/";
+
+/* harmony default export */ __webpack_exports__["a"] = (request);
+
+/***/ }),
+
+/***/ 33:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils_request__ = __webpack_require__(28);
 //
 //
 //
@@ -136,13 +163,14 @@ app.$mount();
             console.log(err.status, err.message);
         });
         __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("personalized", {}).then(function (d) {
-            console.log('e');
+
             console.log(d);
             _this.songitem = d.data.result;
         }).catch(function (err) {
             console.log(err.status, err.message);
         });
         __WEBPACK_IMPORTED_MODULE_0__utils_request__["a" /* default */].get("http://localhost:3000/personalized/newsong", {}).then(function (d) {
+            wx.hideLoading();
             _this.Single = d.data.result;
         }).catch(function (err) {
             console.log(err.status, err.message);
@@ -217,7 +245,14 @@ app.$mount();
 
 /***/ }),
 
-/***/ 52:
+/***/ 41:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 53:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -482,12 +517,12 @@ if (false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_template_compiler_index_id_data_v_122d28cd_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_script_index_0_index_vue__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_template_compiler_index_id_data_v_122d28cd_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_node_modules_mpvue_loader_1_0_15_mpvue_loader_lib_selector_type_template_index_0_index_vue__ = __webpack_require__(53);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(81)
+  __webpack_require__(41)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -529,36 +564,6 @@ if (false) {(function () {
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
-
-/***/ }),
-
-/***/ 80:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-
-var Fly = __webpack_require__(2); //wx.js为flyio的微信小程序入口文件
-var request = new Fly(); //创建fly实例
-//添加拦截器
-request.interceptors.request.use(function (config, promise) {
-    //给所有请求添加自定义header
-    config.headers["X-Tag"] = "flyio";
-    return config;
-});
-//配置请求基地址
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.prototype.$http = request;
-request.config.baseURL = "http://localhost:3000/";
-
-/* harmony default export */ __webpack_exports__["a"] = (request);
-
-/***/ }),
-
-/***/ 81:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ })
 

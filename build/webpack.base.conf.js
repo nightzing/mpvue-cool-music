@@ -5,6 +5,7 @@ var config = require('../config')
 var vueLoaderConfig = require('./vue-loader.conf')
 var MpvuePlugin = require('webpack-mpvue-asset-plugin')
 var glob = require('glob')
+// var SkeletonWebpackPlugin = require('vue-skeleton-webpack-plugin')
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)

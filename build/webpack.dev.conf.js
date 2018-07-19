@@ -11,18 +11,22 @@ var path = require('path')
 var ExtractTextPlugin = require('extract-text-webpack-plugin')
 var CopyWebpackPlugin = require('copy-webpack-plugin')
 var OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
+// var SkeletonWebpackPlugin = require('vue-skeleton-webpack-plugin')
 
 // add hot-reload related code to entry chunks
 // Object.keys(baseWebpackConfig.entry).forEach(function (name) {
 //   baseWebpackConfig.entry[name] = ['./build/dev-client'].concat(baseWebpackConfig.entry[name])
 // })
+// import SkeletonWebpackPlugin from 'vue-skeleton-webpack-plugin'
 
 module.exports = merge(baseWebpackConfig, {
-  module: {
-    rules: utils.styleLoaders({
-      sourceMap: config.dev.cssSourceMap,
-      extract: true
-    })
+  module: 
+    {
+    rules: 
+      utils.styleLoaders({
+        sourceMap: config.dev.cssSourceMap,
+        extract: true
+      })
   },
   // cheap-module-eval-source-map is faster for development
   // devtool: '#cheap-module-eval-source-map',
@@ -35,6 +39,7 @@ module.exports = merge(baseWebpackConfig, {
     chunkFilename: utils.assetsPath('js/[id].js')
   },
   plugins: [
+
     new webpack.DefinePlugin({
       'process.env': config.dev.env
     }),
